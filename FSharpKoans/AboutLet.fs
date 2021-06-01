@@ -28,7 +28,7 @@ module ``about let`` =
 
         let y = "a string"
         let expectedType = y.GetType()
-        AssertEquality expectedType typeof<FILL_ME_IN>
+        AssertEquality expectedType typeof<string>
 
     [<Koan>]
     let YouCanMakeTypesExplicit() =
