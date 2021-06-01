@@ -35,3 +35,4 @@ module ``about asserts`` =
 
     [<Koan>]
     let FillInValues() =
+        AssertEquality (1 + 1) 2
