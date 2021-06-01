@@ -15,7 +15,7 @@ module ``about let`` =
     let LetBindsANameToAValue() =
         let x = 50
         
-        AssertEquality x __
+        AssertEquality x 50
     
     (* In F#, values created with let are inferred to have a type like
        "int" for integer values, "string" for text values, and "bool" 
