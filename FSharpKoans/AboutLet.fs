@@ -38,8 +38,8 @@ module ``about let`` =
         let y:string = "forty two"
         let typeOfY = y.GetType()
 
-        AssertEquality typeOfX typeof<FILL_ME_IN>
-        AssertEquality typeOfY typeof<FILL_ME_IN>
+        AssertEquality typeOfX typeof<int>
+        AssertEquality typeOfY typeof<string>
 
         (* You don't usually need to provide explicit type annotations types for 
            local variables, but type annotations can come in handy in other 
